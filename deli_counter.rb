@@ -10,7 +10,7 @@ take_a_number(katz_deli, "Avi")
 take_a_number(katz_deli, "Spencer")
 
 def line(katz_deli)
-  if katz_deli.count == 0
+  if katz_deli.empty?
     puts "The line is currently empty."
   else
     message = "The line is currently:"
